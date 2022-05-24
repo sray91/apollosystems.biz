@@ -1,0 +1,26 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; /* black */
+  font-size: 5rem;
+}
+.hero-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 25px;
+  padding-top: 10px;
+}
+.hero-image img{
+  width: 100%;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
